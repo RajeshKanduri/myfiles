@@ -2,6 +2,7 @@ def is_prime(n):
     """Check if a number is prime."""
     if n <= 1:
         return False
+    # rajesh kanduri
     if n == 2:
         return True  # 2 is the only even prime number
     if n % 2 == 0:
